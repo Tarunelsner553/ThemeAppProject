@@ -1,0 +1,72 @@
+.step4-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step4-title {
+  width: 60%;
+}
+
+.step4-title h2 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.step4-title p {
+  font-size: larger;
+}
+
+.step2-button {
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+.btn button {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.step4-form-content {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.color {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.color_title h2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.color_value {
+  display: flex;
+  gap: 10px;
+}
+
+.color_value input {
+  height: 30%;
+}
+
+.step2-button {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.step2-button button .sub {
+  padding: 10px;
+  cursor: pointer;
+  width: 15%;
+}

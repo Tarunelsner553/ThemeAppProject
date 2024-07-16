@@ -1,0 +1,162 @@
+.step7-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.step7-title h2{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.step7-title p{
+  font-size: larger;
+}
+.step7-title {
+  width: 60%;
+}
+.stepbtn7{
+  width: 30%;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+.step1_heading, .step2_heading, .step3_heading ,.step4_heading ,.step5_heading,.step6_heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: large;
+  font-weight: bold;
+}
+.edit{
+  width: 15%;
+  text-align: center;
+}
+.edit a{
+  display: block;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+}
+hr {
+  margin-bottom: 25px;
+}
+.step1_content , .step2_content {
+  margin-bottom: 50px;
+  display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.step3_content{
+  margin-bottom: 50px;
+  display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.image1{
+  display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.image2{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image1 h2{
+  margin-bottom: 40px;
+}
+img {
+  width: 200px;
+    height: 250px;
+}
+.step3color h2{
+  margin-bottom: 40px;
+}
+.step3colorval {
+  width: 33%;
+}
+.step3_primary , .step3_sec {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.step1_content p{
+  width: 30%;
+  font-size: 20px;
+}
+.step2_content p{
+  font-size: 20px;
+}
+.step3_primary p, .step3_sec p{
+  font-size: 20px;
+}
+h2 {
+  font-size: 20px;
+    font-weight: bold;
+}
+.end_title {
+  margin-bottom: 50px;
+}
+.end_title h2{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+}
+.end_info p{
+  font-size: larger;
+  margin-bottom: 15px;
+}
+.dot {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.headingfonts ,.bodyfonts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.headingfonts p ,.bodyfonts p{
+  width: 33%;
+  font-size: 20px;
+}
+.step6_content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.step6_content p{
+  width: 33%;
+    font-size: 20px;
+}
+.imgval{
+  width: 33%;
+}
+.layoutwithoptions{
+  width: 33%;
+}
+.layoutwithoptions p{
+  margin-inline-start: 36px;
+}
+

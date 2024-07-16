@@ -1,0 +1,85 @@
+.step5-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.step5-title {
+  width: 60%;
+}
+.step5-button.head {
+  width: 30%;
+}
+.step5-title h2{
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.step5-title p{
+  font-size: larger;
+}
+.step5-button .btn{
+  display: flex;
+  gap: 10px;
+}
+.heading_fonts {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.fonts_heading h2{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.fonts_heading p{
+  font-size: larger;
+}
+.fonts_value1 p{
+  font-size: large;
+  margin-bottom: 15px;
+}
+.fonts_value1 select.shopify_fonts_value {
+  padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+  width: 100%;
+}
+
+.body_fonts {
+  display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.body_fonts_heading h2 {
+  font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.body_fonts_heading p {
+  font-size: larger;;
+}
+.fonts_value2 p{
+  font-size: large;
+  margin-bottom: 15px;
+}
+.fonts_value2 select.shopify_fonts_value {
+  padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+  width: 100%;
+}
+
+.step5-button.endprev{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.step5-button .end .endprev{
+  padding: 10px;
+  cursor: pointer;
+  width: 20%;
+}

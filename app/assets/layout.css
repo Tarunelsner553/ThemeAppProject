@@ -1,0 +1,99 @@
+.step2-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.step2-title {
+  width: 60%;
+}
+.end.btn {
+  display: flex;
+  justify-content: space-between;
+}
+button.endprev {
+  width: 20%;
+}
+button.endnext {
+  width: 20%;
+}
+.step2-title h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.step2-title p {
+  font-size: large;
+}
+
+ .btns{
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.btn .prev {
+  padding: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+input[type="checkbox"] {
+  transform: scale(1.7);
+}
+.layout1_options h2,.layout2_options h2,.layout3_options h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.l1_heading ,.l2_heading ,.l3_heading{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.l1_values , .l2_values,.l3_values{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-inline-start: 34px;}
+.layout {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.layout1_options {
+  width: 33%;
+}
+.layout2_options {
+  width: 33%;
+}
+.layout3_options {
+  width: 33%;
+}
+.theme-btn button {
+  font-size: large;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.step2-button {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+
+}
+.btn{
+  /* width: 100%; */
+}
+.step2-button button {
+  padding: 10px;
+  cursor: pointer;
+  width: 50%;
+}

@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6559ae70851b27f6fc7238d5759996bb"
+name = "new-customer-app"
+handle = "new-customer-app-1"
+application_url = "https://grade-meet-scanners-factors.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "darshitx.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://grade-meet-scanners-factors.trycloudflare.com/auth/callback",
+  "https://grade-meet-scanners-factors.trycloudflare.com/auth/shopify/callback",
+  "https://grade-meet-scanners-factors.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false

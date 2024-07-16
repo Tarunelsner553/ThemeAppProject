@@ -1,0 +1,74 @@
+.step1-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step1-title {
+  width: 60%;
+}
+
+.step1-title h2 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.step1-title p {
+  font-size: larger;
+}
+
+.step1-button {
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+.btn button {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-content {
+  display: flex;
+  gap: 20px;
+}
+
+.fields input[type='radio'] {
+  margin-right: 10px;
+}
+
+.fields label {
+  width: 100%;
+}
+
+.theme-image img {
+  width: 100%;
+}
+
+.theme-title h2 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.theme-title p {
+  margin-bottom: 20px;
+}
+
+.theme-btn button {
+  font-size: large;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

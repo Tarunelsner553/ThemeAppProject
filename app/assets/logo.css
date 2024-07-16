@@ -1,0 +1,122 @@
+.step3-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.step3-title {
+  width: 60%;
+}
+
+.step3-title h2 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.step3-title p {
+  font-size: larger;
+}
+
+.step3-button .header{
+  width: 30%;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+.btn.prev {
+  padding: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.step-3-form-content{
+  display: block;
+  margin-bottom: 50px;
+}
+
+.primary_logo,
+.secondary_logo {
+  margin-bottom: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.logo_heading h2 {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.logo_image {
+  width: 29%;
+}
+
+.logo_image label {
+  display: block;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.logo_image input[type='file'] {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  opacity: 0;
+}
+
+.logo_view {
+  width: 36%;
+}
+
+.logo_image_preview {
+  margin-bottom: 10px;
+}
+
+.logo_image_preview img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.image_name {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.logo_view button {
+  width: 55%;
+  padding: 5px;
+}
+
+.step3-button {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.step3-button button {
+  padding: 10px;
+  cursor: pointer;
+  width: 20%;
+}
